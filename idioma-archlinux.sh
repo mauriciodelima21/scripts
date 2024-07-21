@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# bash -c "$(wget -qLO - https://raw.githubusercontent.com/mauriciodelima21/scripts/main/idioma-archlinux.sh)"
+
 # Atualiza a lista de pacotes e instala o pacote de localização glibc
 echo "Atualizando a lista de pacotes e instalando o glibc..."
 sudo pacman -Syu --noconfirm
