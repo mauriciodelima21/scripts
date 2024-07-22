@@ -23,6 +23,7 @@ echo "KEYMAP=br-abnt2" | sudo tee /etc/vconsole.conf
 echo "Configurando o timezone para São Paulo..."
 sudo ln -sf /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
 sudo hwclock --systohc
+timedatectl set-ntp true
 
 # Atualiza a configuração do bash
 echo "Atualizando a configuração do bash..."
